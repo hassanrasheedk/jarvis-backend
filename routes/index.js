@@ -13,7 +13,8 @@ const openai = new OpenAIApi(configuration);
 async function callWhisper(text) {
   const response = await openai.createCompletion({
     model: 'text-davinci-003',
-    prompt: 'suggest me how to find a girlfriend in bavaria',
+    // prompt: 'suggest me how to find a girlfriend in bavaria',
+    prompt: text,
     max_tokens: 50,
     temperature: 0.5,
     top_p: 1

@@ -10,7 +10,7 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",
-    "express": "~4.16.1",
+    "express": "^4.18.2",
     "http-errors": "~1.6.3",
     "lodash": "^4.17.21",
     "microsoft-cognitiveservices-speech-sdk": "^1.23.0",
@@ -19,6 +19,7 @@
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
-    "kill-port": "^2.0.1"
+    "kill-port": "^2.0.1",
+    "nodemon": "^2.0.22"
   }
 }
